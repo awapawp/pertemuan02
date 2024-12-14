@@ -1,0 +1,28 @@
+^G:\PERTEMUAN02\PERTEMUAN02\BUILD\WINDOWS\X64\CMAKEFILES\677EF8824BA145E8A569E7E90341A437\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\flutter PROJECT_DIR=G:\pertemuan02\pertemuan02 FLUTTER_ROOT=C:\flutter FLUTTER_EPHEMERAL_DIR=G:\pertemuan02\pertemuan02\windows\flutter\ephemeral PROJECT_DIR=G:\pertemuan02\pertemuan02 FLUTTER_TARGET=G:\pertemuan02\pertemuan02\lib\main.dart DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=G:\pertemuan02\pertemuan02\.dart_tool\package_config.json C:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^G:\PERTEMUAN02\PERTEMUAN02\BUILD\WINDOWS\X64\CMAKEFILES\E1AA94DCBC2425734B159D442D3ECFE5\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^G:\PERTEMUAN02\PERTEMUAN02\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SG:/pertemuan02/pertemuan02/windows -BG:/pertemuan02/pertemuan02/build/windows/x64 --check-stamp-file G:/pertemuan02/pertemuan02/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
